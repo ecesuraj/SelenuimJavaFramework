@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-10">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/suraj/selenium-server-standalone-2.53.1.jar"/>
+	<classpathentry kind="lib" path="C:/suraj/selenium-2.53.1/extentexport/bson-3.3.0.jar"/>
+	<classpathentry kind="lib" path="C:/suraj/selenium-2.53.1/extentexport/commons-codec-1.9.jar"/>
+	<classpathentry kind="lib" path="C:/suraj/selenium-2.53.1/extentexport/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="C:/suraj/selenium-2.53.1/extentexport/extentreports-3.0.3.jar"/>
+	<classpathentry kind="lib" path="C:/suraj/selenium-2.53.1/extentexport/freemarker-2.3.23.jar"/>
+	<classpathentry kind="lib" path="C:/suraj/selenium-2.53.1/extentexport/httpclient-4.5.2.jar"/>
+	<classpathentry kind="lib" path="C:/suraj/selenium-2.53.1/extentexport/httpcore-4.4.4.jar"/>
+	<classpathentry kind="lib" path="C:/suraj/selenium-2.53.1/extentexport/httpmime-4.5.2.jar"/>
+	<classpathentry kind="lib" path="C:/suraj/selenium-2.53.1/extentexport/jsoup-1.9.2.jar"/>
+	<classpathentry kind="lib" path="C:/suraj/selenium-2.53.1/extentexport/mongodb-driver-3.3.0.jar"/>
+	<classpathentry kind="lib" path="C:/suraj/selenium-2.53.1/extentexport/mongodb-driver-core-3.3.0.jar"/>
+	<classpathentry kind="lib" path="C:/suraj/selenium-2.53.1/extentexport/New folder/bson-3.3.0.jar"/>
+	<classpathentry kind="lib" path="C:/suraj/selenium-2.53.1/extentexport/New folder/commons-codec-1.9.jar"/>
+	<classpathentry kind="lib" path="C:/suraj/selenium-2.53.1/extentexport/New folder/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="C:/suraj/selenium-2.53.1/extentexport/New folder/extentreports-4.0.9.jar"/>
+	<classpathentry kind="lib" path="C:/suraj/selenium-2.53.1/extentexport/New folder/freemarker-2.3.23.jar"/>
+	<classpathentry kind="lib" path="C:/suraj/selenium-2.53.1/extentexport/New folder/gson-2.8.5.jar"/>
+	<classpathentry kind="lib" path="C:/suraj/selenium-2.53.1/extentexport/New folder/httpclient-4.5.2.jar"/>
+	<classpathentry kind="lib" path="C:/suraj/selenium-2.53.1/extentexport/New folder/httpcore-4.4.4.jar"/>
+	<classpathentry kind="lib" path="C:/suraj/selenium-2.53.1/extentexport/New folder/httpmime-4.5.2.jar"/>
+	<classpathentry kind="lib" path="C:/suraj/selenium-2.53.1/extentexport/New folder/mongodb-driver-3.3.0.jar"/>
+	<classpathentry kind="lib" path="C:/suraj/selenium-2.53.1/extentexport/New folder/mongodb-driver-core-3.3.0.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
