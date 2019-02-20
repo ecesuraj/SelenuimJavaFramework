@@ -9,6 +9,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.testng.Assert;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
@@ -51,16 +52,18 @@ public class TestCase3 {
 		c.click();
 
 		// 5. Verify the error message
+		Assert.assertEquals(true, "The maximum quantity allowed for purchase is 500.");
 
 		// 6. Then click on 'EMPTY CARD' Link
 		Thread.sleep(3000);
 		driver.findElement(By.xpath("//span[contains(text(),'Empty Cart')]")).click();
-
+		
+		
 		// 7. Verify card is empty
-
+		Thread.sleep(5000);
+       Assert.assertEquals(true, "Shopping Cart is Empty");
 
 	}
-
 
 	@AfterTest
 	public void tearDown() throws Exception {

@@ -2,24 +2,24 @@
 <testng-results total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2019-02-19T10:12:08Z" name="Default suite" finished-at="2019-02-19T10:12:45Z" duration-ms="37009">
+  <suite started-at="2019-02-20T04:40:18Z" name="Default suite" finished-at="2019-02-20T04:40:39Z" duration-ms="21368">
     <groups>
     </groups>
-    <test started-at="2019-02-19T10:12:08Z" name="Default test" finished-at="2019-02-19T10:12:45Z" duration-ms="37009">
-      <class name="eCommerceLive.TestCase3">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:eCommerceLive.TestCase3@f79e]" started-at="2019-02-19T15:42:08Z" name="setUp" finished-at="2019-02-19T15:42:18Z" duration-ms="9500" status="PASS">
+    <test started-at="2019-02-20T04:40:18Z" name="Default test" finished-at="2019-02-20T04:40:39Z" duration-ms="21368">
+      <class name="eCommerceLive.TestCase4">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:eCommerceLive.TestCase4@f79e]" started-at="2019-02-20T10:10:18Z" name="setUp" finished-at="2019-02-20T10:10:24Z" duration-ms="5804" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testTestCase3()[pri:0, instance:eCommerceLive.TestCase3@f79e]" started-at="2019-02-19T15:42:18Z" name="testTestCase3" finished-at="2019-02-19T15:42:41Z" duration-ms="23425" status="PASS">
+        <test-method signature="testTestCase4()[pri:0, instance:eCommerceLive.TestCase4@f79e]" started-at="2019-02-20T10:10:24Z" name="testTestCase4" finished-at="2019-02-20T10:10:37Z" duration-ms="12666" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testTestCase3 -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:eCommerceLive.TestCase3@f79e]" started-at="2019-02-19T15:42:41Z" name="tearDown" finished-at="2019-02-19T15:42:45Z" duration-ms="3972" status="PASS">
+        </test-method> <!-- testTestCase4 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:eCommerceLive.TestCase4@f79e]" started-at="2019-02-20T10:10:37Z" name="tearDown" finished-at="2019-02-20T10:10:39Z" duration-ms="2880" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- eCommerceLive.TestCase3 -->
+      </class> <!-- eCommerceLive.TestCase4 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
