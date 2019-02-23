@@ -3,12 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test name="Default test(failed)">
     <classes>
-      <class name="eCommerceLive.TestCase5">
+      <class name="eCommerceLive.TestCase6">
         <methods>
-          <include name="testTestCase5"/>
+          <include name="testTestCase6"/>
           <include name="setUp"/>
+          <include name="tearDown"/>
         </methods>
-      </class> <!-- eCommerceLive.TestCase5 -->
+      </class> <!-- eCommerceLive.TestCase6 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
