@@ -13,8 +13,8 @@ import org.openqa.selenium.WebDriver;
 public class TestCase5 {
 	  private WebDriver driver;
 	  private String baseUrl;
-	  public String firstName = "mohan";    // Firstname and Lastname will be placed    
-	  public String lastName = "ray";  // in a TestData EXCEL file at some stage
+	  public String firstName = "BERRY";    // Firstname and Lastname will be placed    
+	  public String lastName = "BERRYTWO";  // in a TestData EXCEL file at some stage
 	  
 	@BeforeTest
 	public void setUp() throws Exception {
@@ -53,14 +53,11 @@ public class TestCase5 {
 	    driver.findElement(By.id("lastname")).clear();	    
 	    driver.findElement(By.id("lastname")).sendKeys(lastName);
 	    driver.findElement(By.id("email_address")).clear();
-	    driver.findElement(By.id("email_address")).sendKeys("mohan123@tpg.com.au");
-	    Thread.sleep(4000);
+	    driver.findElement(By.id("email_address")).sendKeys("Berry123@tpg.com.au");
 	    driver.findElement(By.id("password")).clear();
-	    driver.findElement(By.id("password")).sendKeys("dfdfdfdfdf");
-	    Thread.sleep(4000);
+	    driver.findElement(By.id("password")).sendKeys("mar8mar");
 	    driver.findElement(By.id("confirmation")).clear();
-	    Thread.sleep(4000);
-	    driver.findElement(By.id("confirmation")).sendKeys("dfdfdfdfdf");
+	    driver.findElement(By.id("confirmation")).sendKeys("mar8mar");
 	    
 	    // 4. Click Register
 	    driver.findElement(By.xpath("//button[@title='Register']")).click();
@@ -135,9 +132,9 @@ public class TestCase5 {
 	    Thread.sleep(2000);
 	  }
 	
-//	@AfterTest
-//	public void tearDown() throws Exception {
-//		Thread.sleep(1000);
-//		driver.quit();
-//	  }
+	@AfterTest
+	public void tearDown() throws Exception {
+		Thread.sleep(1000);
+		driver.quit();
+	  }
 	}
