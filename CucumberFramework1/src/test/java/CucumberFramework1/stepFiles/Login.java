@@ -99,7 +99,7 @@ public class Login {
 		signout.click();
 		Thread.sleep(5000);
 		driver.findElement(By.xpath("//div[1]/div/div[2]/div[1]/ul/li[1]/ul/li[3]/form/button")).click();
-		System.out.println("----------Sign out was successful -------");
+		System.out.println("----------Sign out was successfully -------");
 		    }
 		catch(Throwable e)
 		    {
