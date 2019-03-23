@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test name="Default test(failed)">
     <classes>
-      <class name="eCommerceLive.TestCase6">
+      <class name="MyPackages.Placeorder">
         <methods>
-          <include name="testTestCase6"/>
-          <include name="setUp"/>
-          <include name="tearDown"/>
+          <include name="Addtocard2"/>
+          <include name="Lunchbrowser"/>
+          <include name="CloseBrowser"/>
         </methods>
-      </class> <!-- eCommerceLive.TestCase6 -->
+      </class> <!-- MyPackages.Placeorder -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

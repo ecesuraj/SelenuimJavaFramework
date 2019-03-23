@@ -95,7 +95,7 @@ public void Addtocard2() throws Exception
 	size.selectByVisibleText("M");
 	WebDriverWait wait=new WebDriverWait(driver, 30);
 	wait.until(ExpectedConditions.elementToBeClickable(By.xpath(sAddToCart))).click();
-	Thread.sleep(2000);
+	Thread.sleep(4000);
 	driver.findElement(By.xpath(checkoutview)).click();
 	driver.findElement(By.xpath("//div/div[1]/div/div/div[4]/div/div/div[2]/div[2]/button")).click();
 	WebElement checkout=driver.findElement(By.id(emailxapth));
